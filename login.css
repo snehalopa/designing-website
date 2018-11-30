@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+}
+.externalheading{
+    border: 1px solid black;
+    height:80px;
+    width:100%
+}
+.internalheading{
+    border: 1px solid black;
+    height:55px;
+    width:85%;
+    margin:auto;
+    margin-top:10px;
+}
+.externalbig{
+    border: 1px solid black;
+    height:700px;
+    width:100%
+}
+.internalbig{
+    border: 1px solid black;
+    height:500px;
+    width:85%;
+    margin:auto;
+    margin-top:100px;
+}
+.externalmedium{
+    border: 1px solid black;
+    height:400px;
+    width:100%
+}
+.internalmedium{
+    border: 1px solid black;
+    height:300px;
+    width:85%;
+    margin:auto;
+    margin-top:50px;
+}
+.externalsmall{
+    border: 1px solid black;
+    height:200px;
+    width:100%
+}
+.internalsmall{
+    border: 1px solid black;
+    height:100px;
+    width:60%;
+    margin:auto;
+    margin-top:50px;
+}
+.externalbanner{
+    border: 1px solid black;
+    height:200px;
+    width:100%;
+}
+.internalbanner{
+    border: 1px solid black;
+    height:220px;
+    width:60%;
+    margin:auto;
+    margin-top:-20px;
+}
