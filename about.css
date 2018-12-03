@@ -3,62 +3,395 @@ body{
     padding:0;
 }
 .externalheading{
-    border: 1px solid black;
-    height:80px;
+    
+    height:0px;
     width:100%
 }
 .internalheading{
-    border: 1px solid black;
+    
     height:55px;
     width:85%;
     margin:auto;
     margin-top:10px;
 }
 .externalbig{
-    border: 1px solid black;
-    height:700px;
+    
+    height:555px;
     width:100%
 }
 .internalbig{
-    border: 1px solid black;
+    
     height:500px;
     width:85%;
     margin:auto;
-    margin-top:100px;
+    margin-top:85px;
 }
 .externalmedium{
-    border: 1px solid black;
+    
     height:400px;
     width:100%
 }
 .internalmedium{
-    border: 1px solid black;
+    
     height:300px;
     width:85%;
     margin:auto;
     margin-top:50px;
 }
 .externalsmall{
-    border: 1px solid black;
-    height:200px;
+    
+    height:120px;
     width:100%
 }
 .internalsmall{
-    border: 1px solid black;
+    
     height:100px;
     width:60%;
     margin:auto;
     margin-top:50px;
 }
 .externalbanner{
-    border: 1px solid black;
+    
     height:200px;
     width:100%;
 }
 .internalbanner{
-    border: 1px solid black;
+    
     height:220px;
     width:60%;
     margin:auto;
     margin-top:-20px;
+}
+.menu{
+    
+    display: inline;
+    float:right;
+    padding:20px;
+    font-family: proxima nova;
+    font-weight: bolder;
+}
+.removedefault{
+    border: 2px solid #4ad587;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4ad587;
+    border-radius: 5px;;
+    
+    
+}
+.removedef{
+    color: inherit;
+    text-decoration: none;
+}
+.removedef:hover, .removedef.active{
+    border-bottom: 3px solid #4ad587;
+}
+#levzy{
+    font-family: proxima nova;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+}
+.externalbiggray{
+    
+    height:700px;
+    width:100%;
+    background-color: #252831;
+}
+#register{
+    background-color:#4ad587;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: proxima nova;
+    font-weight: bolder;
+    font-size: 15px;
+    border-color: #4ad587;
+    border-radius: 5px;
+    margin-top:50px;
+}
+#center{
+    text-align: center;
+}
+#crafted{
+    font-family: proxima nova;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    padding-top:150px;
+}
+#craftedintro{
+    font-family: proxima nova;
+    color: white;
+}
+.cards{
+    width:33%;
+    
+    height:220px;
+    float: left;
+    background-color: #4ad587;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.cards:hover{
+    background-color: #27934f;
+}
+.cardheading{
+    float: right;
+    
+    font-size: 50px;
+    font-weight: bolder;
+    color:white;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+.imagecard{
+    margin-top: 70px;
+    margin-left: 15px;
+}
+.cardinfo{
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 140px;
+    margin-right: 20px;
+    margin-top: -50px;
+    color:white;
+}
+#sitedetails{
+    font-family: proxima nova;
+    font-size:15px;
+    line-height: 1.5;
+}
+#sitedetailsnext{
+    font-family: proxima nova;
+    font-size:15px;
+    line-height: 1.5;
+    padding-top:30px;
+}
+
+.rightside{
+    height:500px;
+    width:50%;
+    
+    float:right;
+}
+.leftside{
+    height:500px;
+    width:50%;
+    
+    
+}
+#sitedetailsright{
+    font-family: proxima nova;
+    font-size:15px;
+    line-height: 1.5;
+}
+.rightlist{
+    margin-left:50px;
+    font-family: proxima nova;
+    font-size:15px;
+    line-height: 1.5;
+    margin-top: 70px;
+    list-style-type: none;
+    
+}
+.rightlist::before{
+    position: absolute;
+   content: ' ';
+   display: inline-block;
+   height: 25px;
+   width: 25px;
+   background-image: url('tick (1).png');
+   background-repeat: no-repeat;
+   margin-left:-32px;
+}
+.rightlistextra{
+    
+    font-family: proxima nova;
+    font-size:15px;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.externalbigstory{
+    
+    height:600px;
+    width:100%;
+    text-align: center;
+}
+#ourstory{
+    font-family: proxima nova;
+    font-size:25px;
+    font-weight: bolder;
+    text-decoration:underline;
+    text-decoration-color: #4ad587;
+    text-underline-position: under;
+}
+.internalbigstory{
+    border: 1px solid black;
+    height:400px;
+    
+    margin:auto;
+    margin-top:100px;
+}
+.circles{
+    padding: 150px 40px;
+    margin-left: 50px;
+    list-style-image: url('oval.png');
+    float:left;
+    
+}
+.externalbigteam{
+    
+    height:555px;
+    width:100%;
+    text-align: center;
+}
+#ourstory{
+    font-family: proxima nova;
+    font-size:25px;
+    font-weight: bolder;
+    text-decoration:underline;
+    text-decoration-color: #4ad587;
+    text-underline-position: under;
+}
+.internalbigteam{
+    
+    height:400px;
+    margin:auto;
+    margin-top:100px;
+    background-color: #f5f5f5;
+}
+.categories{
+    height:50px;
+    width:33.15%;
+    border: 1px solid #4ad587;
+    float: left;
+    font-family: proxima nova;
+    font-size:20px;
+    padding-top:25px;
+    color: #757575;
+    font-weight: bold;
+}
+.categoriesfirst{
+    height:50px;
+    width:33.15%;
+    border: 1px solid #4ad587;
+    border-bottom: none;
+    float: left;
+    font-family: proxima nova;
+    font-size:20px;
+    padding-top:25px;
+    color:#4ad587;
+}
+.teammembers{
+    margin-top:20px;
+    padding-top: 28px;
+    height:275px;
+    width:23%;
+    
+    float: left;
+    margin-left: 22px;
+    text-align: center;
+}
+.photo{
+    border-radius: 100%;
+    
+    border:1px solid #4ad587; 
+    padding:10px;
+    background-color: white;
+}
+.name{
+    font-family: proxima nova;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.designation{
+    font-family: proxima nova;
+    color: #4ad587;
+}
+#subscribe{
+    font-family: proxima nova;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#enterdetails{
+    height: 30px;
+    width: 40%;
+    padding-left: 10px;
+    border-color: #4ad587;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left:15px;
+    margin-top:5px;
+}
+#column{
+    height:255px;
+    width: 33.1%;
+    
+    margin-top: 20px;
+    float: left;
+    
+}
+.column2{
+    height:255px;
+    width: 21%;
+    margin-top: 20px;
+    float:left;
+}
+.externalending{
+    
+    height:100px;
+    width:100%;
+    background-color: #f5f5f5;
+    padding:1px;
+}
+.internalending{
+    
+    height:50px;
+    width:85%;
+    margin:auto;
+    
+}
+.image{
+    border-radius:100%;
+    margin:10px;
+}
+.footer{
+    font-family: proxima nova;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.footerheading{
+    font-family: proxima nova;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.footerdetails{
+    font-family: proxima nova;
+}
+.footerinfo{
+    font-family: proxima nova;
+}
+#privacy{
+    text-align: center;
+    font-family: proxima nova;
+}
+.externalmediumgray{
+    
+    background-color: #f5f5f5;
+    height:400px;
+    width:100%;
+    padding-top:1px;
+    border-bottom: 1px solid gray;
 }
